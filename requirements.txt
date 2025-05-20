@@ -1,6 +1,7 @@
-tensorflow
 streamlit
-nltk
-numpy
-pandas
+tensorflow==2.13.0
 scikit-learn
+pandas
+numpy
+nltk
+protobuf==3.20.*
