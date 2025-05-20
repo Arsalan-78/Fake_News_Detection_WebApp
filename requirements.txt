@@ -1,12 +1,12 @@
 streamlit==1.33.0
 tensorflow==2.13.0
-numpy==1.24.3  # <-- CHANGED THIS LINE for TensorFlow compatibility
+numpy==1.24.3
 nltk==3.9.1
 scikit-learn==1.6.1
 pandas==2.2.3
 joblib==1.5.0
 regex==2024.11.6
-rich==13.9.4  # <-- ENSURED THIS LINE for Streamlit compatibility
+rich==13.9.4 # Ensure this specific version is used
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -43,7 +43,7 @@ threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.5
 tqdm==4.67.1
-typing-extensions==4.13.2
+typing-extensions==4.5.0 # <-- CHANGED THIS LINE
 tzdata==2025.2
 urllib3==2.4.0
 watchdog==6.0.0
