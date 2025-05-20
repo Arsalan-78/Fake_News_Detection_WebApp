@@ -1,5 +1,5 @@
 streamlit==1.33.0
-scikit-learn
+tensorflow==2.13.0
 pandas
-joblib
-nltk
+numpy
+scikit-learn
